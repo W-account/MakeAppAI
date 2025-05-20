@@ -1954,15 +1954,18 @@
 }
 
  
-#join .cta-button,
-#join .cta-button:hover,
-#join .cta-button:active,
-#join .cta-button:focus {
+
+#join .cta-button {
     text-decoration: none !important;
-    border-bottom: 0 !important;
 }
 
 
-#join .cta-button {
-    border-bottom: 0 !important;
-}  
+#join .cta-button:hover,
+#join .cta-button:focus {
+    text-decoration: none !important;
+}
+
+
+#join .cta-button::after {
+    display: none !important;
+}
