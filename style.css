@@ -1953,22 +1953,28 @@
     }
 }
 
+
 #join .cta-button,
 #join .cta-button:hover,
+#join .cta-button:active,
 #join .cta-button:focus {
     text-decoration: none !important;
+    box-shadow: none !important;
+    border-bottom: 0 !important;
+}
+
+
+#join .cta-button::after,
+#join .cta-button::before {
+    content: none !important;
 }
 
 #join .cta-button {
-    border-bottom: none !important;
+    background-image: none !important;
+    text-decoration-skip-ink: none !important;
 }
 
 
-#join .twitter-cta {
-    text-decoration: none !important;
-}
-
-#join .cta-button:hover::after,
-#join .cta-button:focus::after {
-    display: none !important;
+#join .cta-button {
+    border-bottom: 0 !important;
 }
