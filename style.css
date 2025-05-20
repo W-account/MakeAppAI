@@ -1959,22 +1959,22 @@
 #join .cta-button:active,
 #join .cta-button:focus {
     text-decoration: none !important;
-/*     box-shadow: none !important; */
+    box-shadow: none !important;
     border-bottom: 0 !important;
 }
 
 
-/* #join .cta-button::after,
+#join .cta-button::after,
 #join .cta-button::before {
     content: none !important;
-} */
+} 
 
  #join .cta-button {
     background-image: none !important;
-    text-decoration-skip-ink: none !important;
+/*     text-decoration-skip-ink: none !important; */
 }
 
 
-#join .cta-button {
+/* #join .cta-button {
     border-bottom: 0 !important;
-} 
+}  */
