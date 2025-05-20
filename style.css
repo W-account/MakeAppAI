@@ -1727,6 +1727,21 @@
     background: var(--gradient-main);
     padding: 0.8rem 2rem;
     border-radius: 50px;
+
+            @media (max-width: 480px) {
+    .hero {
+        padding: 100px 5% 30px;
+    }
+    
+    .contract-wrapper {
+        gap: 0.8rem;
+    }
+    
+    .hero-launch-btn {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+}
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
