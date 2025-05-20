@@ -1953,6 +1953,6 @@
     }
 }
 
-#join button {
-            text-decoration: !important;
-}
+#join .cta-buttons .cta-button:hover {
+    text-decoration: none !important;
+    box-shadow: none !important;
