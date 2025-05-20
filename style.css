@@ -1952,29 +1952,3 @@
         padding: 1rem;
     }
 }
-
- 
-
-
-
-
-#join .cta-buttons .cta-button {
-    text-decoration: none !important;
-    border-bottom: none !important;
-    position: relative;
-}
-
-#join .cta-buttons .cta-button::after,
-#join .cta-buttons .cta-button::before {
-    content: none !important;
-}
-
-#join .cta-buttons .cta-button:hover {
-    text-decoration: none !important;
-    box-shadow: none !important;
-}
-
-#join a.cta-button {
-    text-decoration: none !important;
-    background-image: none !important;
-}
