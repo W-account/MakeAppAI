@@ -1952,3 +1952,23 @@
         padding: 1rem;
     }
 }
+
+#join .cta-button,
+#join .cta-button:hover,
+#join .cta-button:focus {
+    text-decoration: none !important;
+}
+
+#join .cta-button {
+    border-bottom: none !important;
+}
+
+
+#join .twitter-cta {
+    text-decoration: none !important;
+}
+
+#join .cta-button:hover::after,
+#join .cta-button:focus::after {
+    display: none !important;
+}
