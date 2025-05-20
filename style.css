@@ -1955,17 +1955,21 @@
 
  
 
-#join .cta-button {
+
+
+
+#join .cta-buttons .cta-button {
     text-decoration: none !important;
+    border-bottom: none !important;
+    position: relative;
 }
 
-
-#join .cta-button:hover,
-#join .cta-button:focus {
-    text-decoration: none !important;
+#join .cta-buttons .cta-button::after,
+#join .cta-buttons .cta-button::before {
+    content: none !important;
 }
 
-
-#join .cta-button::after {
-    display: none !important;
+#join .cta-buttons .cta-button:hover {
+    text-decoration: none !important;
+    box-shadow: none !important;
 }
