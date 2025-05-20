@@ -608,13 +608,6 @@
         height: 24px;
     }
 
-    .cta-art {
-        width: 100%;
-        max-width: 600px;
-        border-radius: 20px;
-        box-shadow: 0 0 50px rgba(122,95,255,0.2);
-    }
-
     
     .footer {
         background: #080B15;
