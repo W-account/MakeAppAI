@@ -1771,43 +1771,6 @@
 }
 
 
-.team-image-wrapper {
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
-    aspect-ratio: 1/1; 
-    background: rgba(122,95,255,0.1);
-}
-
-.team-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; 
-    transition: transform 0.3s ease;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 15px; 
-}
-
-.team-card:hover .team-image {
-    transform: translate(-50%, -50%) scale(1.05);
-}
-
-@media (max-width: 768px) {
-    .team-image-wrapper {
-        aspect-ratio: 1/1;
-        max-width: 250px;
-        margin: 0 auto;
-    }
-    
-    .team-image {
-        padding: 10px;
-    }
-}
-
-/* Team Section - Horizontal Layout */
 .team-section {
     overflow: hidden;
     position: relative;
@@ -1962,3 +1925,4 @@
 .team-card:hover::after {
     opacity: 1;
 }
+
