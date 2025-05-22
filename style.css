@@ -1400,8 +1400,6 @@
         flex-direction: column;
         gap: 1.5rem;
         margin: 3rem 0;
-        padding: 1.5rem;
-        background: rgba(255,255,255,0.03);
         border-radius: 16px;
         box-shadow: 0 8px 32px rgba(0,0,0,0.1);
         border: 1px solid rgba(122,95,255,0.15);
@@ -1411,16 +1409,14 @@
 
     .timeline-item:hover {
         transform: scale(1);
-        box-shadow: 0 12px 40px rgba(122,95,255,0.15);
     }
 
-    .timeline-image {
+/*     .timeline-image {
         height: 220px;
         border-radius: 12px;
         object-fit: cover;
         box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-    }
+    } */
 
     .timeline-content {
         padding: 0;
@@ -1549,7 +1545,6 @@
     
     .timeline-image {
         max-height: 300px;
-        order: -1;
     }
     
     .timeline-item.reverse {
@@ -1619,7 +1614,7 @@
     100% { opacity: 0.6; }
 }
 
-/* Team Section */
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1986,4 +1981,23 @@
         backdrop-filter: blur(12px);
         background: rgba(11, 15, 26, 0.82);
     }
+}
+
+
+.timeline-image {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.timeline-item.reverse .timeline-image {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+
+.timeline-item:hover .timeline-image {
+  transform: scale(1.03);
 }
