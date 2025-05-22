@@ -1954,33 +1954,36 @@
 
 
 
-            
-            
+
+
+
 .timeline-image {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-    border-radius: 12px; 
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 
 .timeline-item.reverse .timeline-image {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
 
 @media (min-width: 769px) {
     .timeline-item {
-        gap: 5rem;
+        gap: 6rem;
         margin: 8rem 0;
     }
     
     .timeline-image {
         height: 500px;
+        object-fit: cover;
         object-position: center 25%;
     }
     
     .timeline-content {
         padding: 3rem;
-        backdrop-filter: blur(10px);
-        background: rgba(11, 15, 26, 0.7);
+        backdrop-filter: blur(12px);
+        background: rgba(11, 15, 26, 0.82);
     }
 }
