@@ -1949,3 +1949,38 @@
 #join .cta-buttons .cta-button:hover {
     text-decoration: none !important;
     box-shadow: none !important;
+
+
+
+
+
+            
+            
+.timeline-image {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    border-radius: 12px; 
+}
+
+
+.timeline-item.reverse .timeline-image {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+}
+
+
+@media (min-width: 769px) {
+    .timeline-item {
+        gap: 5rem;
+        margin: 8rem 0;
+    }
+    
+    .timeline-image {
+        height: 500px;
+        object-position: center 25%;
+    }
+    
+    .timeline-content {
+        padding: 3rem;
+        backdrop-filter: blur(10px);
+        background: rgba(11, 15, 26, 0.7);
+    }
+}
