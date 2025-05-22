@@ -1411,12 +1411,12 @@
         transform: scale(1);
     }
 
-/*     .timeline-image {
+   .timeline-image {
         height: 220px;
         border-radius: 12px;
         object-fit: cover;
         box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    } */
+    } 
 
     .timeline-content {
         padding: 0;
@@ -1944,60 +1944,3 @@
 #join .cta-buttons .cta-button:hover {
     text-decoration: none !important;
     box-shadow: none !important;
-
-
-
-
-
-
-
-
-.timeline-image {
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-
-.timeline-item.reverse .timeline-image {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-}
-
-
-@media (min-width: 769px) {
-    .timeline-item {
-        gap: 6rem;
-        margin: 8rem 0;
-    }
-    
-    .timeline-image {
-        height: 500px;
-        object-fit: cover;
-        object-position: center 25%;
-    }
-    
-    .timeline-content {
-        padding: 3rem;
-        backdrop-filter: blur(12px);
-        background: rgba(11, 15, 26, 0.82);
-    }
-}
-
-
-.timeline-image {
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-  border-radius: 15px;
-  overflow: hidden;
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
-.timeline-item.reverse .timeline-image {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-}
-
-
-.timeline-item:hover .timeline-image {
-  transform: scale(1.03);
-}
